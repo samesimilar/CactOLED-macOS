@@ -13,7 +13,7 @@ If you would prefer to run this simulator in a browser rather than as a standalo
 
 ## Installing
 
-There is a CactOLED macOS Universal (Intel & Apple Silicon) build in the `builds` folder. Just download, unzip, and copy to your desired folder. It's built for a minimum of macOS 11. I've only tested it on macOS 14 & 15.
+There is a CactOLED macOS Universal (Intel & Apple Silicon) build in the `builds` folder. Just download, unzip, and copy to your desired folder. It's built for a minimum of macOS 11.5. I've only tested it on macOS 14 & 15.
 
 You'll also need all four files in the `pd-mothermod` folder. Download them and keep them together in a folder somewhere convenient.
 
