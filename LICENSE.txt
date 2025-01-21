@@ -8,7 +8,7 @@ Where files have been imported from other sources, comments in those files indic
 
 `NexusUI.js` is attributed to Benjamin Taylor and is redistributed here under the terms of the MIT license. Source: https://github.com/nexus-js/ui
 
-`osc.js`  is maintained by Colin Clark and is redistributed here under the terms of the GPL 2.0 and MIT licenses. Source: https://github.com/colinbdclark/osc.js/
+
 
 --- Begin BSD 3-Clause License ---
 
