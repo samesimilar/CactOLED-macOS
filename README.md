@@ -52,9 +52,10 @@ Tip: Don't forget to turn up the volume!
 
 *Organelle OS*
 
-Copyright Critter & Guitari
+Copyright (c) 2016, Critter & Guitari
+All rights reserved.
 
- https://github.com/critterandguitari/Organelle_OS
+https://github.com/critterandguitari/Organelle_OS
  
  
  *NexusUI*
@@ -65,7 +66,7 @@ Copyright Critter & Guitari
  
  *OSCKit*
  
- Copyright (c) 2023-2025 Steffan Andrews
+ Copyright (c) 2023 Steffan Andrews - https://github.com/orchetect
  
  https://github.com/orchetect/OSCKit
  
