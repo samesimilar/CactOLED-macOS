@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1DBD36F32D3F345E0042B3A0 /* OSCKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1DBD36F22D3F345E0042B3A0 /* OSCKit */; };
 		1DBD36F52D3F345E0042B3A0 /* OSCKitCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1DBD36F42D3F345E0042B3A0 /* OSCKitCore */; };
+		1DF9F9942D4166ED009CA821 /* OSCKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1DF9F9932D4166ED009CA821 /* OSCKit */; };
+		1DF9F9962D4166ED009CA821 /* OSCKitCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1DF9F9952D4166ED009CA821 /* OSCKitCore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DF9F9962D4166ED009CA821 /* OSCKitCore in Frameworks */,
 				1DBD36F52D3F345E0042B3A0 /* OSCKitCore in Frameworks */,
+				1DF9F9942D4166ED009CA821 /* OSCKit in Frameworks */,
 				1DBD36F32D3F345E0042B3A0 /* OSCKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,6 +138,8 @@
 			packageProductDependencies = (
 				1DBD36F22D3F345E0042B3A0 /* OSCKit */,
 				1DBD36F42D3F345E0042B3A0 /* OSCKitCore */,
+				1DF9F9932D4166ED009CA821 /* OSCKit */,
+				1DF9F9952D4166ED009CA821 /* OSCKitCore */,
 			);
 			productName = CactOLED;
 			productReference = 1DBD36A32D3E0CE40042B3A0 /* CactOLED.app */;
@@ -218,7 +224,7 @@
 			mainGroup = 1DBD369A2D3E0CE40042B3A0;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				1DBD36F12D3F345E0042B3A0 /* XCLocalSwiftPackageReference "../OSCKit" */,
+				1DF9F9922D4166EC009CA821 /* XCLocalSwiftPackageReference "../OSCKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1DBD36A42D3E0CE40042B3A0 /* Products */;
@@ -580,7 +586,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		1DBD36F12D3F345E0042B3A0 /* XCLocalSwiftPackageReference "../OSCKit" */ = {
+		1DF9F9922D4166EC009CA821 /* XCLocalSwiftPackageReference "../OSCKit" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../OSCKit;
 		};
@@ -592,6 +598,14 @@
 			productName = OSCKit;
 		};
 		1DBD36F42D3F345E0042B3A0 /* OSCKitCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OSCKitCore;
+		};
+		1DF9F9932D4166ED009CA821 /* OSCKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OSCKit;
+		};
+		1DF9F9952D4166ED009CA821 /* OSCKitCore */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = OSCKitCore;
 		};
