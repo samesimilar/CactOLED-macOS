@@ -45,3 +45,28 @@ Tip: Sometimes you have to twiddle the knobs (1-4) to get the Organelle patch to
 Tip: The octave-select switch (key: Q) can sometimes cancel stuck keys if you flip it.
 
 Tip: Don't forget to turn up the volume!
+
+## Credits
+
+**Portions of this software are adapted from or include code licensed for use in this project by their respective authors, the use of which is hereby acknowledged:**
+
+*Organelle OS*
+
+Copyright (c) 2016, Critter & Guitari
+All rights reserved.
+
+https://github.com/critterandguitari/Organelle_OS
+ 
+ 
+ *NexusUI*
+ 
+ Author: Benjamin Taylor
+ 
+ http://nexus-js.github.io/ui/api/#intro
+ 
+ *OSCKit*
+ 
+ Copyright (c) 2023 Steffan Andrews - https://github.com/orchetect
+ 
+ https://github.com/orchetect/OSCKit
+ 
