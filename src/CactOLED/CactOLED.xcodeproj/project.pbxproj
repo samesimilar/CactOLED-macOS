@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D9D4A5B2D42135A00B2202C /* OSCKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1D9D4A5A2D42135A00B2202C /* OSCKit */; };
 		1DBD36F32D3F345E0042B3A0 /* OSCKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1DBD36F22D3F345E0042B3A0 /* OSCKit */; };
 		1DBD36F52D3F345E0042B3A0 /* OSCKitCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1DBD36F42D3F345E0042B3A0 /* OSCKitCore */; };
 		1DF9F9942D4166ED009CA821 /* OSCKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1DF9F9932D4166ED009CA821 /* OSCKit */; };
@@ -72,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D9D4A5B2D42135A00B2202C /* OSCKit in Frameworks */,
 				1DF9F9962D4166ED009CA821 /* OSCKitCore in Frameworks */,
 				1DBD36F52D3F345E0042B3A0 /* OSCKitCore in Frameworks */,
 				1DF9F9942D4166ED009CA821 /* OSCKit in Frameworks */,
@@ -140,6 +142,7 @@
 				1DBD36F42D3F345E0042B3A0 /* OSCKitCore */,
 				1DF9F9932D4166ED009CA821 /* OSCKit */,
 				1DF9F9952D4166ED009CA821 /* OSCKitCore */,
+				1D9D4A5A2D42135A00B2202C /* OSCKit */,
 			);
 			productName = CactOLED;
 			productReference = 1DBD36A32D3E0CE40042B3A0 /* CactOLED.app */;
@@ -224,7 +227,7 @@
 			mainGroup = 1DBD369A2D3E0CE40042B3A0;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				1DF9F9922D4166EC009CA821 /* XCLocalSwiftPackageReference "../OSCKit" */,
+				1D9D4A592D42135A00B2202C /* XCRemoteSwiftPackageReference "OSCKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1DBD36A42D3E0CE40042B3A0 /* Products */;
@@ -426,7 +429,7 @@
 				CODE_SIGN_ENTITLEMENTS = CactOLED/CactOLED.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = PKZDGF65SL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -439,7 +442,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.samesimilar.CactOLED;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -455,7 +458,7 @@
 				CODE_SIGN_ENTITLEMENTS = CactOLED/CactOLED.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = PKZDGF65SL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -468,7 +471,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.samesimilar.CactOLED;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -585,14 +588,23 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		1DF9F9922D4166EC009CA821 /* XCLocalSwiftPackageReference "../OSCKit" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../OSCKit;
+/* Begin XCRemoteSwiftPackageReference section */
+		1D9D4A592D42135A00B2202C /* XCRemoteSwiftPackageReference "OSCKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/orchetect/OSCKit";
+			requirement = {
+				kind = exactVersion;
+				version = 1.1.0;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		1D9D4A5A2D42135A00B2202C /* OSCKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D9D4A592D42135A00B2202C /* XCRemoteSwiftPackageReference "OSCKit" */;
+			productName = OSCKit;
+		};
 		1DBD36F22D3F345E0042B3A0 /* OSCKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = OSCKit;

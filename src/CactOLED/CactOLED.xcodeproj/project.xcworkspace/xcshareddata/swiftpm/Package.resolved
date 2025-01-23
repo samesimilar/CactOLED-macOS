@@ -1,5 +1,5 @@
 {
-  "originHash" : "2b0ef433104a5a60f50111b98472d48f0e78b85574819fb28f4d51c4d168654a",
+  "originHash" : "09004593056713d8a60a786845f520e6827054e6113df0da5996ca04635a488e",
   "pins" : [
     {
       "identity" : "cocoaasyncsocket",
@@ -8,6 +8,15 @@
       "state" : {
         "revision" : "dbdc00669c1ced63b27c3c5f052ee4d28f10150c",
         "version" : "7.6.5"
+      }
+    },
+    {
+      "identity" : "osckit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/orchetect/OSCKit",
+      "state" : {
+        "revision" : "9b838f0b795c44317150d099bb972314e87d290d",
+        "version" : "1.1.0"
       }
     },
     {

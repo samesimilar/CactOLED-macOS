@@ -1166,7 +1166,7 @@
 #X text 349 370 aux button;
 #X text 473 367 keyboard;
 #X text 318 100 The following values are available in your patch:;
-#N canvas 757 152 541 549 menuControl 1;
+#N canvas 757 152 541 549 menuControl 0;
 #X obj 136 396 s oscOut;
 #X msg 109 336 send /gohome 1;
 #X obj 228 287 r enableSubMenu;
@@ -1200,7 +1200,6 @@
 #X text 64 10 If we get a bang to enableSubMenu we start recieving messages from the selector encoder. A goHome menu returns to the Organelle main menu.;
 #X floatatom 59 161 5 0 0 0 - - - 0;
 #X floatatom 343 170 5 0 0 0 - - - 0;
-#X obj 347 221 print button;
 #X connect 1 0 0 0;
 #X connect 2 0 6 0;
 #X connect 3 0 1 0;
@@ -1213,7 +1212,6 @@
 #X connect 11 0 8 0;
 #X connect 11 1 10 0;
 #X connect 11 1 14 0;
-#X connect 11 1 15 0;
 #X restore 75 284 pd menuControl;
 #N canvas 432 163 404 168 META 0;
 #X text 12 113 VERSION 1.2;
