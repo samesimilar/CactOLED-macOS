@@ -619,7 +619,7 @@
 					
 					const obj = {
 						"address": "/encoder/button",
-						"v": [v ? 1 : 0]
+						"v": [v.state ? 1 : 0]
 					}
 					// socket.send(JSON.stringify(obj));
 					oscout(obj);
@@ -643,6 +643,7 @@
 				});
 				buttons.aux.colorize("accent","#d07");  
 				buttons.aux.on('change', function(v) {
+                    
 					const obj = {
 						"address": "/key",
 						"v": [0, v ? 100 : 0]
